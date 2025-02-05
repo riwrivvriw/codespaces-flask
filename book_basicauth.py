@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_basicauth import BasicAuth
-
-app = Flask(__name__)
+#2
+app = Flask(__name__) 
 
 # Basic authentication configuration
 app.config['BASIC_AUTH_USERNAME'] = 'username'
